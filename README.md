@@ -1,4 +1,4 @@
-#Cara dapetin id
+#CARA DAPETIN ID
 
 1.buka aplikasi packet capture atau instal ssl capture.
 
@@ -16,7 +16,8 @@
 (note: id berada di url nya liat paling belakang id=ini id lo)
 
 
-#Termux
+
+#TERMUX
 
 1.pkg install git
 
@@ -34,7 +35,9 @@
 
 8.selesai tinggal tunggu
 
-#C9/Codeanywhere
+
+
+#C9/CODEANYWHERE
 
 1.bikin workspaces PHP/apache (kalo udah ada skip)
 
