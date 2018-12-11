@@ -26,6 +26,8 @@
 
 3.git clone https://github.com/Muhamadrianto97/matfaucetpro.git
 
+4.cd matfaucetpro
+
 4.php mat.php
 
 5.Masukin Socks file Format .txt
@@ -44,16 +46,20 @@
 
 2.sudo apt update (kalo udah pernah skip)
 
-3.git clone https://github.com/Muhamadrianto97/matfaucetpro.git
+3.sudo apt install git (kalo udah pernah skip)
 
-4.php mat.php
+4.git clone https://github.com/Muhamadrianto97/matfaucetpro.git
 
-5.Masukin Socks file Format .txt
+5.cd matfaucetpro
 
-6.Masukin id lo
+6.php mat.php
 
-7.masukin berapa loopnya/berapa kali pengulangan
+7.Masukin Socks file Format .txt
 
-8.selesai tinggal tunggu
+8.Masukin id lo
+
+9.masukin berapa loopnya/berapa kali pengulangan
+
+10.selesai tinggal tunggu
 
 ===============================================================================
