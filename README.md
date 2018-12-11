@@ -1,5 +1,5 @@
 ===============================================================================
-#CARA DAPETIN ID
+# CARA DAPETIN ID
 
 1.buka aplikasi packet capture atau instal ssl capture.
 
@@ -18,7 +18,7 @@
 
 ===============================================================================
 
-#TERMUX
+# TERMUX
 
 1.pkg install git
 
@@ -40,7 +40,7 @@
 
 ===============================================================================
 
-#C9/CODEANYWHERE
+# C9/CODEANYWHERE
 
 1.bikin workspaces PHP/apache (kalo udah ada skip)
 
