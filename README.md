@@ -1,3 +1,4 @@
+===============================================================================
 #CARA DAPETIN ID
 
 1.buka aplikasi packet capture atau instal ssl capture.
@@ -15,7 +16,7 @@
 7.terus cari id lo 
 (note: id berada di url nya liat paling belakang id=ini id lo)
 
-
+===============================================================================
 
 #TERMUX
 
@@ -35,7 +36,7 @@
 
 8.selesai tinggal tunggu
 
-
+===============================================================================
 
 #C9/CODEANYWHERE
 
@@ -54,3 +55,5 @@
 7.masukin berapa loopnya/berapa kali pengulangan
 
 8.selesai tinggal tunggu
+
+===============================================================================
