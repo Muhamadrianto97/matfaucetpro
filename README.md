@@ -28,15 +28,15 @@
 
 4.cd matfaucetpro
 
-4.php mat.php
+5.php mat.php
 
-5.Masukin Socks file Format .txt
+6.Masukin Socks file Format .txt
 
-6.Masukin id lo
+7.Masukin id lo
 
-7.masukin berapa loopnya/berapa kali pengulangan
+8.masukin berapa loopnya/berapa kali pengulangan
 
-8.selesai tinggal tunggu
+9.selesai tinggal tunggu
 
 ===============================================================================
 
