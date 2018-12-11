@@ -14,7 +14,7 @@
 6.buka lagi packet capture nya
 
 7.terus cari id lo 
-(note: id berada di url nya liat paling belakang id=ini id lo)
+(note: id berada di url nya liat paling belakang id=ini id lo Bisa Liat Pada Gambar Yang Gua Share)
 
 ===============================================================================
 
