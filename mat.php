@@ -7,7 +7,7 @@ function getStr($string,$start,$end){
 }
 function getmat($id,$socks){
 	$arr = array("\r","	");
-	$url = "http://saosdeveloper.club/mtc/intrewardv2.php?id=".$id."&reward=a87ff679a2f3e71d9181a67b7542122c";
+	$url = "http://saosdeveloper.club/mtc/intrewardv3.php";
 	$h = explode("\n",str_replace($arr,"","Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0
 	Accept-Language: id,en-US;q=0.7,en;q=0.3
@@ -15,12 +15,15 @@ function getmat($id,$socks){
 	Host: saosdeveloper.club
 	Connection: Keep-Alive
 	Upgrade-Insecure-Requests: 1"));
-	return curl($url,$h,$socks);
+	$body = "iduser=$id&reward=a87ff679a2f3e71d9181a67b7542122c";
+	return curl($url,$h,$body,$socks);
 }
-function curl($url,$h,$socks){
+function curl($url,$h,$body,$socks){
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $h);
+	curl_setopt($ch, CURLOPT_POSTFIELDS, $body);
+	curl_setopt($ch, CURLOPT_POST, 1);
 	curl_setopt($ch, CURLOPT_PROXY, $socks);
 	curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -31,7 +34,7 @@ function curl($url,$h,$socks){
 	//exit();
 }
 echo "#################\n#  @muhtoevill  #\n#   SGB-Team    #\n#################\n";
-echo "Socsk File: ";
+echo "Socks File: ";
 $file = trim(fgets(STDIN));
 echo "Id Code	 :";
 $id = trim(fgets(STDIN));
